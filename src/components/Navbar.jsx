@@ -55,7 +55,7 @@ const Navbar = () => {
         </li>
       </ul>
       {/* Hamburger */}
-      <div className="md:hidden z-10 cursor-pointer cursor" onClick={onClick}>
+      <div className="md:hidden z-100 cursor-pointer" onClick={onClick}>
         {!nav ? <FaBars /> : <FaTimes />}
       </div>
 
