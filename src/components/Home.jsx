@@ -15,9 +15,8 @@ const Home = () => {
           I'm a full stack developer.{" "}
         </h2>
         <p className="text-[#8892b0] py-4 max-w-[700px]">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium
-          tempora quo tempore corporis? Ratione, similique ipsam corrupti nam
-          vel adipisci.
+            Passionate about learning new things and am presently engaged in
+            expanding my expertise in front-end and back-end development.
         </p>
         <div>
           <Link to="work" smooth={true} duration={500} className="text-white group border-2 px-6 py-3 my-2 flex items-center

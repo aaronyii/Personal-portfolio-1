@@ -10,14 +10,19 @@ const About = () => {
           </div>
         </div>
         <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4">
-          <div className="sm:text-right text-4xl font-bold ">
+          <div className="sm:text-right text-4xl font-bold">
             <p>Hi, I am Aaron. Nice to meet you. Please take a look around. </p>
           </div>
-          <div>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
-            deserunt veniam quasi animi aperiam id. Quasi, corrupti distinctio
-            sit eum repellendus recusandae dolor. Ea impedit illo sequi facilis
-            esse atque!
+          <div className="text-xl">
+            I recently graduated from the University of South Florida with a major in computer
+            science. Throughout my academic journey, I have developed a solid
+            foundation in computer science, encompassing algorithm analysis,
+            object-oriented programming, data structures, and database
+            management, among other key areas. 
+            <br/><br/>
+            These studies have equipped me
+            with a deep understanding of fundamental principles and the ability
+            to apply them effectively in real-world scenarios.
           </div>
         </div>
       </div>
