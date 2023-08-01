@@ -1,5 +1,5 @@
-import realEstate from "../assets/projects/realestate.jpg";
 import mealsApp from "../assets/projects/meals-app.png";
+import weatherApp from '../assets/projects/weather-app.png'
 const Work = () => {
   return (
     <div name="work" className="w-full md:h-screen text-gray-300 bg-[#0a192f]">
@@ -12,7 +12,7 @@ const Work = () => {
         </div>
         {/* Container */}
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
-          {/* Grid Items */}
+          {/* Project 1 */}
           <div
             style={{ backgroundImage: `url(${mealsApp})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center 
@@ -45,25 +45,33 @@ const Work = () => {
               </div>
             </div>
           </div>
-          
-          {/* Grid Items */}
+        
+          {/* Project 2 */}
           <div
-            style={{ backgroundImage: `url(${realEstate})` }}
+            style={{ backgroundImage: `url(${weatherApp})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center 
           items-center mx-auto content-div"
           >
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
-                React JS Application
+                Weather App
               </span>
               <div className="pt-8 text-center">
-                <a href="/">
+                <a
+                  href="https://w-react-app.netlify.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="/">
+                <a
+                  href="https://github.com/aaronyii/weather-app"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
